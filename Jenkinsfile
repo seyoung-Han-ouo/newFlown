@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'flown-407707'
         CLUSTER_NAME = 'kube'
         LOCATION = 'asia-northeast3-a'
-        CREDENTIALS_ID = 'gke'
+        CREDENTIALS_ID = 'ed96e8bf-d6ea-4446-bfdb-646835206e6c'
     }
     stages {
         stage("Checkout code") { //git clone과 같은 효과
